@@ -1,0 +1,87 @@
+body {
+    background-color: #13162930;
+    color: #a68f8f;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .todo-container {
+    background: #261470;
+    padding: 25px;
+    border-radius: 15px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9e84849e;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-group input, 
+  .input-group button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  #todo-input {
+    flex: 1;
+  }
+  
+  #add-btn {
+    background: #30aacb;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #add-btn:hover {
+    background: #3947e5;
+  }
+  
+  .control-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  
+  #filter, #delete-all {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  #delete-all {
+    background: rgb(16, 179, 216);
+    color: white;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .empty {
+    text-align: center;
+    opacity: 0.7;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
